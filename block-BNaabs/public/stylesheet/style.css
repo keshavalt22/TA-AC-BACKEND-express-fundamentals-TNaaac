@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 32px;
+}
+.clearfix::before,
+.clearfix::after {
+	contain: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+.nav {
+	float: right;
+}
+.p {
+	color: white;
+	padding-top: 40px;
+}
+.heading {
+	text-align: center;
+	padding: 120px 0;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+}
+.p-1 {
+	color: rgb(176,198,226);
+}
+.header {
+	background-color: rgb(83,133,193);
+}
+.header a {
+	text-decoration: none;
+	color: rgb(176,198,226);
+	font-size: 16px;
+	margin-left: 20px;
+}
+.article {
+	width: 25%;
+	display: inline-block;
+	margin-left: 80px;
+	padding: 80px 0;
+}
+.article h2 {
+	font-size: 24px;
+	color: rgb(83,133,193);
+}
+.article p {
+	font-size: 18px;
+	color: rgb(165,165,165);
+}
+.btn {
+	color: white;
+	background-color: rgb(83,133,193);
+	width: 80px;
+	height: 40px;
+}
+.section-1 {
+	background-color: rgb(83,133,193);
+	width: 100%;
+}
+.section-1 h3 {
+	font-size: 44px;
+	color: white;
+	text-align: center;
+	padding: 60px 0 10px 0;
+}
+.para {
+	font-size: 18px;
+	color: rgb(165,165,165);
+	text-align: center;
+}
+.pic {
+	display: inline-block;
+	width: 21.333%;
+	padding: 80px 30px;
+	margin: 1.5%;
+	text-align: center;
+	border: 1px solid rgb(126,163,209);
+}
+.pic h4 {
+	font-size: 24px;
+	color: rgb(255,255,255);
+}
+.pic p {
+	font-size: 18px;
+	color: rgb(126,163,209);
+}
+.pic img {
+	border-radius: 50%;
+}
+.section-2 h3 {
+	font-size: 44px;
+	color: rgb(83,133,193);
+	text-align: center;
+	padding: 60px 0 10px 0;
+}
+.pic-2 {
+	width: 40%;
+	margin: 0 auto;
+	padding: 40px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.pic-2 img {
+	width: 500px;
+}
+.pic-2 h4 {
+	font-size: 22px;
+	color: rgb(126,163,209);
+	padding: 40px 0;
+}
+footer {
+	clear: both;
+}
+.footer {
+	color: rgb(165,165,165);
+}
+.nav a {
+	text-align: right;
+	margin-left: 20px;
+	color: rgb(83,133,193);
+}
