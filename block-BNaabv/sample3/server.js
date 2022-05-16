@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 })
 
 app.post("/form", (req, res) => {
-    res.send(req.body);
+    res.json(req.body);
 })
 
 app.post("/json", (req, res) => {
@@ -45,7 +45,7 @@ app.get("/users/:username", (req, res) => {
 })
 
 app.use((req, res, next) => {
-    res.status(404).send("Page Not Found1");
+    res.status(404).send("Page Not Found!");
 })
 
 app.use((err, req, res, next) => {
