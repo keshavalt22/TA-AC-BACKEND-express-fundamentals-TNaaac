@@ -15,7 +15,7 @@ npm i express@4.16.4 --save
 - upgrade it to the latest version
 
 ```js
-npm i express@4.16.4 --save
+npm i express@latest --save
 ```
 ```
 
