@@ -9,7 +9,15 @@ Q. Create a package.json file manually with
 Q. Create a package.json with using npm init script with above content
 
 - add express package with exact version of 4.16.4
+```js
+npm i express@4.16.4 --save
+```
 - upgrade it to the latest version
+
+```js
+npm i express@4.16.4 --save
+```
+```
 
 Q. Create a basic express server with 2 routes
 
